@@ -5,7 +5,6 @@
       span.w-80.f4.relative(:class="{'complete':info.complete}") {{info.title}}
     button.ml-auto.mr-auto.f6.bg-transparent.b--none(@click="remove()") X
 </template>
-ml-auto w-20 f6 bg-white b--none
 <script>
 import {mapState, mapMutations} from 'vuex'
 
